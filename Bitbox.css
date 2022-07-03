@@ -1,0 +1,163 @@
+/* general styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  #logo{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+  }
+  #headline{
+      font-weight: 200;
+      margin-left:  170px;
+      color: crimson;
+    
+  }
+  
+  body
+{
+    background-image: url(img/final.jpeg);
+    background-image:url(img/final.jpeg),linear-gradient(rgba(61, 60, 60, 0.349),(rgba(61, 60, 60, 0.349))) ;
+   height: 100vh;
+   background-size: cover;
+   background-attachment: scroll;
+}
+ol
+{
+    float: right;
+    list-style-type:square;
+    margin-top: 25px;
+}
+ol li
+{
+    display: inline;
+}ol li a
+{
+ text-decoration: none;
+ color: aliceblue;
+ padding: 5px 20px;
+ border: 1px solid transparent;
+ transition: 0.6 ease;
+}
+ol li a:hover
+{
+background-color: aliceblue;
+color:black;
+}
+ol li.active a
+{
+    background-color: aliceblue;
+    color:black; 
+}.logo img
+{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+.main
+{
+    max-width: 1200px;
+    margin: auto;
+}.tittle h1
+{
+    size: 70px;
+    color: rgb(250, 249, 249);
+}
+
+.button
+{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}.btn 
+{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none;
+    background-color: firebrick;
+}
+.btn:hover
+{
+    background-color: aliceblue;
+
+color: firebrick;
+
+}
+  .container {
+    align-items: center;
+    background-color: rgb(248, 247, 245);
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    color: #333;
+    margin: 0 auto;
+    text-align: center;
+    padding-left: 100px;
+  }
+  
+  h1.headline{
+     
+    font-weight: normal;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+  }
+  
+  li {
+    display: inline-block;
+    font-size: 1em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+  
+  li span {
+    display: block;
+    font-size: 2.5rem;
+  }
+  
+  .message {
+    font-size: 4rem;
+    display: none;
+    padding: 1rem;
+  }
+  
+  .emoji {
+    padding: 0 .25rem;
+  }
+  
+  @media all and (max-width: 768px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+    
+    li {
+      font-size: 1.125rem;
+      padding: .75rem;
+    }
+    
+    
+  }
+
+.calculator{
+  text-align: center;
+  padding: 10%;
+  margin: 10%;
+  background-color: aliceblue;
+}
+#result{
+  background-color: aliceblue;
+}
+form #button{
+  background-color: burlywood;
+  padding: 1%;
+  margin: 1%;
+  font-size: medium;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+form #form{
+  font-size: medium;
+  
+}

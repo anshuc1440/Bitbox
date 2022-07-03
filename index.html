@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Bitbox.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitbox</title>
+</head>
+<body >
+    
+  <header>
+    <div class= logo>
+      <image src="img/100.jpeg" id="logo">
+      </div>
+    <div class= main>
+        <ol>
+            <li class="active"><a href="#">home</a></li>
+             <li><a href="https://www.google.com/search?q=weather&rlz=1C1CHBF_enIN924IN924&oq=weather&aqs=chrome.0.69i59l3j46i67i433j0i433j69i61j69i60l2.3195j0j7&sourceid=chrome&ie=UTF-8" target="_blank">weather</a></li>
+             <li><a href="https://www.nationalgeographic.org/encyclopedia/global-warming/#:~:text=Global%20warming%20is%20the%20long,volume%20of%20fossil%20fuels%20burned." target="_blank">Global warming</a></li>
+             <li><a href="https://www.youtube.com/watch?v=zY2ksORCLbs&ab_channel=TED" target="_blank">climate</a></li>
+             <li><a href="https://www.nationalgeographic.com/environment/article/india-water-crisis-drought-could-be-helped-better-building-planning" target="_blank">measures</a></li>
+</ol>
+    </div>
+    <div class="tittle">
+        <h1>THE WATER CO </h1>
+    </div>
+    <div class="button">
+        <a href="#" class="btn">REPORT</a>
+        <a href="#" class="btn">TELL</a>
+</div>
+</header>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br>
+
+<br>
+<br>
+<section class="calculator">
+  <h3>Here you can check how much water your family requires (According to WHO 7l of water is sufficient per individual) -</h3>
+    <div>
+      <form id="form">
+        Number of family members : <input type="text" id="firstNumber" /><br>
+        Water (in litres) per person : <input type="text" id="secondNumber" /><br>
+        <input id="button" type="button" onClick="multiplyBy()" Value="Multiply" />
+        </form>
+        <p>Total Water (in litres) for family : 
+        <span id = "result"></span>
+        </p>
+</section>
+
+<footer>
+  <div class="container">
+      
+      <h1 id="headline">Aqua shock clock  &#128128; :</h1>
+  
+      <div id="countdown">
+        <ul>
+          <li><span id="days"></span>days</li>
+          <li><span id="hours"></span>Hours</li>
+          <li><span id="minutes"></span>Minutes</li>
+          <li><span id="seconds"></span>Seconds</li>
+        </ul>
+      </div>
+      <div class="message">
+        <div id="content">
+          <span class="emoji">&#128128;</span>
+          <span class="emoji">&#128128;</span>
+          <span class="emoji">&#128128;</span>
+        </div>
+      </div>
+    </div>
+    
+    
+    </div>
+  </footer>
+<script src="Bitbox.js"></script>
+</body>
+</html>
